@@ -1,0 +1,51 @@
+body {
+  line-height: 1.4;
+  border: 5px solid;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  /* font-style: bold; */
+  /* font-family: sans-serif; */
+  background-color: #f7f7f7;
+}
+
+a:link,
+a:visited {
+  color: black;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+}
+h3 {
+  text-transform: uppercase;
+}
+button {
+  color: #fff;
+  /* font-family: sans-serif; */
+  text-transform: uppercase;
+  background-color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  color: black;
+  background-color: #fff;
+}
+.shipping {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: gray;
+  font-size: bold;
+}
+strong {
+  font-size: 20px;
+}
+
+li {
+  list-style: square;
+}
