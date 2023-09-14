@@ -10,6 +10,9 @@ body {
   margin: 50px auto;
 }
 
+article {
+  position: relative;
+}
 h2 {
   font-size: 20px;
   text-align: center;
@@ -23,10 +26,37 @@ h2 {
 a:link,
 a:visited {
   color: black;
+  margin-bottom: 25px;
+  display: inline-block;
 }
 a:hover,
 a:active {
   text-decoration: none;
+}
+
+
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.color-bleu {
+  background-color: #2f6ee2;
+}
+.color-red {
+  background-color: #ec2f2f;
+}
+.color-yellow {
+  background-color: #f0bf1e;
+}
+.color-green {
+  background-color: #90cc20;
+}
+.color-brown {
+  background-color: #885214;
 }
 
 h3 {
@@ -64,6 +94,21 @@ button:hover {
   font-size: bold;
   margin-bottom: 20px;
 }
+
+.sale{
+  background-color: #ec2f2f;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 7px 15px;
+  display: inline-block;
+  position: absolute;
+  top: -17px;
+  left: -34px;
+  letter-spacing: 2px;
+}
+
 strong {
   font-size: 20px;
 }
@@ -71,3 +116,4 @@ strong {
 li {
   margin-bottom: 10px;
 }
+
